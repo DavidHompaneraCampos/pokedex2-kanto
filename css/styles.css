@@ -183,10 +183,7 @@
     .pikachu img {
         width: 100%;
     }
-}
-
-@media only screen and (max-width: 600px) {
     .index h1 {
-        font-size: 20%;
+        font-size: 130%;
     }
 }

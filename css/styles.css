@@ -1,0 +1,186 @@
+/* index.html */
+
+.index {
+    background-image: url("../img/kanto-map.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+/*los elementos a que se encuentran dentro de un elemento con clase index*/
+
+.index a {
+    text-decoration: none;
+    color: red;
+}
+
+.index span {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 30px 0;
+}
+
+.index h1 {
+    color: green;
+    text-align: center;
+}
+
+.index img {
+    width: 25%;
+}
+
+
+/* charmender.html */
+
+.charmander {
+    background-color: aqua;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+/*los elementos a que se encuentran dentro de un elemento con clase charmander*/
+
+.charmander a {
+    background-color: orange;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#enlace {
+    text-align: center;
+}
+
+.charmander img {
+    width: 20%;
+}
+
+.charmander span {
+    background-color: orange;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+
+/* lapras.html */
+
+.lapras {
+    background-image: url(../img/marfondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.lapras a {
+    background-color: aqua;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#enlace {
+    text-align: center;
+}
+
+.lapras img {
+    width: 50%;
+}
+
+.lapras span {
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+
+/* torterra.html */
+
+.torterra {
+    background-image: url(../img/pradotorterra.jfif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.torterra a {
+    background-color: brown;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#enlace {
+    text-align: center;
+}
+
+.torterra img {
+    width: 35%;
+}
+
+.torterra span {
+    background-color: brown;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+
+/* pikachu.html */
+
+.pikachu {
+    background-image: url(../img/rayosfikachu.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.pikachu p {
+    color: white;
+}
+
+.pikachu a {
+    background-color: yellow;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#enlace {
+    text-align: center;
+}
+
+.pikachu h1 {
+    color: white;
+}
+
+.pikachu img {
+    width: 25%;
+}
+
+.pikachu span {
+    background-color: yellow;
+    color: black;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+
+/* Media query para el diseño responsive */
+
+@media only screen and (max-width: 600px) {
+    .index img,
+    .charmander img,
+    .lapras img,
+    .torterra img,
+    .pikachu img {
+        width: 100%;
+    }
+}
